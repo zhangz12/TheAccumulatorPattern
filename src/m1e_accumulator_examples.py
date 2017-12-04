@@ -67,7 +67,7 @@ def summing_example(n):
     """
     total = 0  # Initialize to 0 BEFORE the loop
     for k in range(n):  # Loop
-        total = total + ((k + 1) ** 3)  # Accumulate INSIDE the loop.
+        total += ((k + 1) ** 3)  # Accumulate INSIDE the loop.
 
     return total
 
@@ -119,7 +119,7 @@ def counting_example(n):
     count = 0  # Initialize to 0 BEFORE the loop
     for k in range(n):  # Loop
         if math.cos(k + 1) > 0:  # If the condition holds:
-            count = count + 1  # Increment INSIDE the loop.
+            count += 1  # Increment INSIDE the loop.
 
     return count
 
