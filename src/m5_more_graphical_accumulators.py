@@ -345,7 +345,7 @@ def draw_lines_from_rectangles(rectangle1, rectangle2, n, window):
       :type rectangle2: rg.Rectangle
       :type n: int
       :type window: rg.RoseWindow
-      """
+      """ 
     # ------------------------------------------------------------------
     # DONE: 5. Implement and test this function.
     #          Tests have been written for you (above).
